@@ -11,8 +11,8 @@
       "version": "2026.06.03-1324-be93964",
       "provenance": "Community-derived dataset compiled from the BSData project (github.com/BSData/wh40k-10e). Unit/faction names, rules, and points values are the intellectual property of Games Workshop; this is an unofficial, fan-made compilation provided for personal use, and is not affiliated with or endorsed by Games Workshop.",
       "url": "https://cdn.jsdelivr.net/gh/Wintahknight/ironbuilt-data@v2026.06.03-1324/datasets/wh40k-10e.json",
-      "sha256": "96744d5e75afc70823411833f5c8beec7dea418f960f3472c2f79e91f602b1a4",
-      "bytes": 4334010
+      "sha256": "02de022a85519143ad6457dea2da93e92af1ba56cc2e98f4199b95e262d042fc",
+      "bytes": 4324781
     }
   ]
 }

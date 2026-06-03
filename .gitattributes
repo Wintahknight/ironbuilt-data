@@ -1,0 +1,4 @@
+# Keep dataset/manifest line endings stable (LF) so committed bytes match the build + checksum,
+# regardless of the contributor's core.autocrlf setting.
+*.json text eol=lf
+*.md text eol=lf
