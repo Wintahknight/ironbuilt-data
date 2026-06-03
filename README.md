@@ -2,7 +2,7 @@
 
 Community-derived game datasets consumed by the [IRONBUILT](https://github.com/Wintahknight/ironbuilt)
 army builder. The app ships with **no game data** — on first run you add a dataset from here (the same
-"bring your own data" model BattleScribe/New Recruit use with [BSData](https://github.com/BSData)).
+"bring your own data" model apps like BattleScribe and New Recruit use).
 
 ## What's here
 
@@ -17,11 +17,11 @@ Bundles are served to the app over the **jsDelivr** CDN, version-pinned by git t
 
 ## Provenance & legal
 
-These datasets are **community-derived**, compiled from the open [BSData](https://github.com/BSData/wh40k-10e)
-catalogues. Warhammer 40,000, unit and faction names, rules, and points values are the intellectual
-property of **Games Workshop**. This is an unofficial, fan-made compilation provided for personal use.
-It is **not affiliated with, licensed by, or endorsed by Games Workshop**. Adding a dataset to the app
-is the user's choice; the app itself distributes no game content.
+These datasets are **community-derived** — compiled, reformatted, and quality-checked by members of the
+community and provided for personal use. Warhammer 40,000, and all unit and faction names, rules, and
+points values, are the intellectual property of **Games Workshop**. This is an unofficial, fan-made
+compilation. It is **not affiliated with, licensed by, or endorsed by Games Workshop**. Adding a dataset
+to the app is the user's choice; the app itself distributes no game content.
 
 ## Adding a new dataset / version
 
