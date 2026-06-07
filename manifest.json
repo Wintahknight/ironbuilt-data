@@ -8,11 +8,11 @@
                          "name":  "Warhammer 40,000 - 10th Edition",
                          "game":  "wh40k",
                          "edition":  "10e",
-                         "version":  "2026.06.06-1745-90e1742",
+                         "version":  "2026.06.06-1901-3361777",
                          "provenance":  "Community-derived dataset, compiled and quality-checked by the community and provided for personal use. Warhammer 40,000 and all unit/faction names, rules, and points values are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation - not affiliated with, licensed by, or endorsed by Games Workshop.",
-                         "url":  "https://cdn.jsdelivr.net/gh/Wintahknight/ironbuilt-data@v2026.06.06-1745/datasets/wh40k-10e.json",
-                         "sha256":  "176f1c77b42e799216489ae40da19d9c4239fa1f7712a6ea4e931e5cadfaff5d",
-                         "bytes":  4030776
+                         "url":  "https://cdn.jsdelivr.net/gh/Wintahknight/ironbuilt-data@v2026.06.06-1901/datasets/wh40k-10e.json",
+                         "sha256":  "52c5a0c02a0ae17779667113d39c63fa3c9b485650daecb139825e92fd647427",
+                         "bytes":  4031083
                      }
                  ]
 }
