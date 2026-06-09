@@ -4,17 +4,6 @@
     "updated":  "2026-06-09",
     "datasets":  [
                      {
-                         "id":  "wh40k-11e",
-                         "name":  "Warhammer 40,000 - 11th Edition",
-                         "game":  "wh40k",
-                         "edition":  "11e",
-                         "version":  "2026.06.09-1329-5fa3ad7",
-                         "provenance":  "Community-derived dataset, compiled and quality-checked by the community and provided for personal use. Warhammer 40,000 and all unit/faction names, rules, and points values are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation - not affiliated with, licensed by, or endorsed by Games Workshop.",
-                         "url":  "https://cdn.jsdelivr.net/gh/Wintahknight/ironbuilt-data@v11e-2026.06.09-1329/datasets/wh40k-11e.json",
-                         "sha256":  "8e87192842fee53514c74aa8fa723da56f7a44b1ef7df9588514945a0b554217",
-                         "bytes":  4095190
-                     },
-                     {
                          "id":  "wh40k-10e",
                          "name":  "Warhammer 40,000 - 10th Edition",
                          "game":  "wh40k",
@@ -24,6 +13,17 @@
                          "url":  "https://cdn.jsdelivr.net/gh/Wintahknight/ironbuilt-data@v2026.06.09-1816/datasets/wh40k-10e.json",
                          "sha256":  "572c14768f5096147bec30d60f4c3754897d67130e0fd45e603d8a9189f90f47",
                          "bytes":  4084820
+                     },
+                     {
+                         "id":  "wh40k-11e",
+                         "name":  "Warhammer 40,000 - 11th Edition",
+                         "game":  "wh40k",
+                         "edition":  "11e",
+                         "version":  "2026.06.09-1816-53da3f8",
+                         "provenance":  "Community-derived dataset, compiled and quality-checked by the community and provided for personal use. Warhammer 40,000 and all unit/faction names, rules, and points values are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation - not affiliated with, licensed by, or endorsed by Games Workshop.",
+                         "url":  "https://cdn.jsdelivr.net/gh/Wintahknight/ironbuilt-data@v11e-2026.06.09-1816/datasets/wh40k-11e.json",
+                         "sha256":  "335066e24cdc81135708e7e63f886a68dac46b4539b2552fd9d7d8428a254a9b",
+                         "bytes":  4096596
                      }
                  ]
 }
