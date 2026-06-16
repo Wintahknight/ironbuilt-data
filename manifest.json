@@ -4,6 +4,17 @@
     "updated":  "2026-06-16",
     "datasets":  [
                      {
+                         "id":  "wh40k-10e",
+                         "name":  "Warhammer 40,000 - 10th Edition",
+                         "game":  "wh40k",
+                         "edition":  "10e",
+                         "version":  "2026.06.13-1226-05ee8b3",
+                         "provenance":  "Community-derived dataset, compiled and quality-checked by the community and provided for personal use. Warhammer 40,000 and all unit/faction names, rules, and points values are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation - not affiliated with, licensed by, or endorsed by Games Workshop.",
+                         "url":  "https://cdn.jsdelivr.net/gh/Wintahknight/ironbuilt-data@f5f0594c52b02f1c6261d6146afb68f43adc25be/datasets/wh40k-10e.json",
+                         "sha256":  "8699c0e7be14514bc1c92e6e244b2cfb4eeda05dfcfb5691a143afddc9ce9bf2",
+                         "bytes":  4113474
+                     },
+                     {
                          "id":  "wh40k-11e",
                          "name":  "Warhammer 40,000 - 11th Edition",
                          "game":  "wh40k",
@@ -13,17 +24,6 @@
                          "url":  "https://cdn.jsdelivr.net/gh/Wintahknight/ironbuilt-data@0d66189ef19b055d4071483a8920b942669ebdd1/datasets/wh40k-11e.json",
                          "sha256":  "3c68e7efc8929e3bfc6056c5d7caa0290a70a6636ac6dffe4cdbec4c0b290439",
                          "bytes":  3828106
-                     },
-                     {
-                         "id":  "wh40k-10e",
-                         "name":  "Warhammer 40,000 - 10th Edition",
-                         "game":  "wh40k",
-                         "edition":  "10e",
-                         "version":  "2026.06.16-1826-3988061",
-                         "provenance":  "Community-derived dataset, compiled and quality-checked by the community and provided for personal use. Warhammer 40,000 and all unit/faction names, rules, and points values are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation - not affiliated with, licensed by, or endorsed by Games Workshop.",
-                         "url":  "https://cdn.jsdelivr.net/gh/Wintahknight/ironbuilt-data@e8fedd0a686a325f05f8decf042ead8a4bde41e0/datasets/wh40k-10e.json",
-                         "sha256":  "ce9a67440df1de92e55440f1da911a04ff5c2d3d771872b48d029cbd685b1e1b",
-                         "bytes":  3811635
                      }
                  ]
 }
