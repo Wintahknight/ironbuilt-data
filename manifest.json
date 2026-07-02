@@ -1,7 +1,7 @@
 {
     "schema":  1,
     "name":  "IRONBUILT community datasets",
-    "updated":  "2026-07-01",
+    "updated":  "2026-07-02",
     "datasets":  [
                      {
                          "id":  "wh40k-10e",
@@ -24,6 +24,17 @@
                          "url":  "https://cdn.jsdelivr.net/gh/Wintahknight/ironbuilt-data@2deaa9650dc94a9ea9cfa23241c93f58e134c28f/datasets/wh40k-11e.json",
                          "sha256":  "c4e4219eb55f276773d7aa86d4099fecbe372cc3d44daa76193a6bae1c1934b7",
                          "bytes":  3858149
+                     },
+                     {
+                         "id":  "gdf-2025",
+                         "name":  "Grimdark Future",
+                         "game":  "gdf",
+                         "edition":  "2025",
+                         "version":  "2026.07.02-0841-56cf3ed",
+                         "provenance":  "Community-derived dataset built from OPR (onepagerules.com) Grimdark Future public Battlescribe data. One Page Rules retains all IP rights; use for personal/fan purposes only.",
+                         "url":  "https://cdn.jsdelivr.net/gh/Wintahknight/ironbuilt-data@e45aedd7b40fb4f6d0d7c1260c7bbfa2b584c190/datasets/gdf-2025.json",
+                         "sha256":  "4c12a7ccb5b508bd6b487370ebcb908cd5afdfe3fff6445da150a2f86c83ea30",
+                         "bytes":  337585
                      }
                  ]
 }
