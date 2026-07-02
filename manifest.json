@@ -30,11 +30,11 @@
                          "name":  "Grimdark Future",
                          "game":  "gdf",
                          "edition":  "2025",
-                         "version":  "2026.07.02-0930-96f65dd",
+                         "version":  "2026.07.02-0958-803df31",
                          "provenance":  "Community-derived dataset built from OPR (onepagerules.com) Grimdark Future public Battlescribe data. One Page Rules retains all IP rights; use for personal/fan purposes only.",
-                         "url":  "https://cdn.jsdelivr.net/gh/Wintahknight/ironbuilt-data@24828c5ef05fca54b6f4875f4200517483b41a1a/datasets/gdf-2025.json",
-                         "sha256":  "836325aaabfdd4700dea0623306efeb5bdf2911a277afbd720f58cb0ce6ecd29",
-                         "bytes":  364490
+                         "url":  "https://cdn.jsdelivr.net/gh/Wintahknight/ironbuilt-data@7aa2e5904ac2e993a2d469a0a7446e6d3187e57f/datasets/gdf-2025.json",
+                         "sha256":  "b2b03648acc300a71f15b48099048c161e198524eb1971617561942e1611a749",
+                         "bytes":  480770
                      }
                  ]
 }
