@@ -4,6 +4,17 @@
     "updated":  "2026-07-02",
     "datasets":  [
                      {
+                         "id":  "wh40k-11e",
+                         "name":  "Warhammer 40,000 - 11th Edition",
+                         "game":  "wh40k",
+                         "edition":  "11e",
+                         "version":  "2026.07.02-0903-127b1eb",
+                         "provenance":  "Community-derived dataset, compiled and quality-checked by the community and provided for personal use. Warhammer 40,000 and all unit/faction names, rules, and points values are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation - not affiliated with, licensed by, or endorsed by Games Workshop.",
+                         "url":  "https://cdn.jsdelivr.net/gh/Wintahknight/ironbuilt-data@90db2207536b2061c0f753b3059c23c6403afb91/datasets/wh40k-11e.json",
+                         "sha256":  "f4aef27c477b681793bfb21a5443cd4b5bb1dc73aba3037fe3dff3644278693f",
+                         "bytes":  3858144
+                     },
+                     {
                          "id":  "wh40k-10e",
                          "name":  "Warhammer 40,000 - 10th Edition",
                          "game":  "wh40k",
@@ -19,22 +30,11 @@
                          "name":  "Grimdark Future",
                          "game":  "gdf",
                          "edition":  "2025",
-                         "version":  "2026.07.02-0841-56cf3ed",
+                         "version":  "2026.07.02-0930-96f65dd",
                          "provenance":  "Community-derived dataset built from OPR (onepagerules.com) Grimdark Future public Battlescribe data. One Page Rules retains all IP rights; use for personal/fan purposes only.",
-                         "url":  "https://cdn.jsdelivr.net/gh/Wintahknight/ironbuilt-data@e45aedd7b40fb4f6d0d7c1260c7bbfa2b584c190/datasets/gdf-2025.json",
-                         "sha256":  "4c12a7ccb5b508bd6b487370ebcb908cd5afdfe3fff6445da150a2f86c83ea30",
-                         "bytes":  337585
-                     },
-                     {
-                         "id":  "wh40k-11e",
-                         "name":  "Warhammer 40,000 - 11th Edition",
-                         "game":  "wh40k",
-                         "edition":  "11e",
-                         "version":  "2026.07.02-0903-127b1eb",
-                         "provenance":  "Community-derived dataset, compiled and quality-checked by the community and provided for personal use. Warhammer 40,000 and all unit/faction names, rules, and points values are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation - not affiliated with, licensed by, or endorsed by Games Workshop.",
-                         "url":  "https://cdn.jsdelivr.net/gh/Wintahknight/ironbuilt-data@90db2207536b2061c0f753b3059c23c6403afb91/datasets/wh40k-11e.json",
-                         "sha256":  "f4aef27c477b681793bfb21a5443cd4b5bb1dc73aba3037fe3dff3644278693f",
-                         "bytes":  3858144
+                         "url":  "https://cdn.jsdelivr.net/gh/Wintahknight/ironbuilt-data@24828c5ef05fca54b6f4875f4200517483b41a1a/datasets/gdf-2025.json",
+                         "sha256":  "836325aaabfdd4700dea0623306efeb5bdf2911a277afbd720f58cb0ce6ecd29",
+                         "bytes":  364490
                      }
                  ]
 }
