@@ -11,6 +11,20 @@ army builder. The app ships with **no game data** — on first run you add a dat
   detect updates.
 - **`datasets/*.json`** — the dataset bundles themselves. Each is a single self-contained JSON with
   every faction's datasheets, detachments, and the art map.
+- **`maps/<id>/*.jpg`** — deployment-map imagery referenced by the map datasets (see below). Served
+  over the same jsDelivr CDN.
+
+### Dataset kinds
+
+Most bundles are army-list data (factions/datasheets/detachments). Two companion bundles cover the
+matched-play mission pack, so consumers other than the army builder (e.g. reference bots) can share the
+same source of truth:
+
+- **`wh40k-11e-missions`** — primary mission matrix (`primaries.matrix[yours][opponents]`) and the
+  secondary mission cards (`secondaries.cards`).
+- **`wh40k-11e-maps`** — the deployment layouts from the Event Companion. Each layout carries its
+  disposition matchup, layout letter, and an `image` URL pointing at `maps/wh40k-11e/*.jpg` in this
+  repo. Matchups are stored directionally (attacker/defender) but should be matched unordered.
 
 Bundles are served to the app over the **jsDelivr** CDN, version-pinned by git tag, e.g.
 `https://cdn.jsdelivr.net/gh/Wintahknight/ironbuilt-data@v2026.06.03-1324/datasets/wh40k-10e.json`.

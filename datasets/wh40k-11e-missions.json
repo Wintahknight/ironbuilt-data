@@ -1,0 +1,1327 @@
+{
+  "schema": 1,
+  "id": "wh40k-11e-missions",
+  "game": "wh40k",
+  "edition": "11e",
+  "name": "Warhammer 40,000 - 11th Edition - Missions",
+  "version": "2026.07.14-1628-community",
+  "provenance": "Community-derived dataset. Warhammer 40,000 primary and secondary mission rules, names, and scoring are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation for personal use — not affiliated with, licensed by, or endorsed by Games Workshop.",
+  "primaries": {
+    "note": "DIRECTIONAL: matrix[YOURS][OPPONENTS] gives the first side's primary mission. Each cell: {mission, setup?, score:[{when, items:[{vp,text}]}], action?}.",
+    "dispositions": [
+      "Take and Hold",
+      "Purge the Foe",
+      "Disruption",
+      "Reconnaissance",
+      "Priority Assets"
+    ],
+    "matrix": {
+      "Take and Hold": {
+        "Take and Hold": {
+          "mission": "Battlefield Dominance",
+          "score": [
+            {
+              "when": "R1–2 (end of your turn)",
+              "items": [
+                {
+                  "vp": "2",
+                  "text": "control more objectives than your opponent"
+                }
+              ]
+            },
+            {
+              "when": "R2+ (Cmd phase / R5)",
+              "items": [
+                {
+                  "vp": "3",
+                  "text": "per objective you control"
+                },
+                {
+                  "vp": "+2",
+                  "text": "per objective (excl. home) if you control your home objective"
+                }
+              ]
+            }
+          ]
+        },
+        "Purge the Foe": {
+          "mission": "Immovable Object",
+          "score": [
+            {
+              "when": "Start of your Command phase",
+              "items": [
+                {
+                  "vp": "3",
+                  "text": "control 1+ central objectives"
+                }
+              ]
+            },
+            {
+              "when": "R2–4 (Cmd phase)",
+              "items": [
+                {
+                  "vp": "5",
+                  "text": "per objective you control (excl. home)"
+                }
+              ]
+            },
+            {
+              "when": "R5 (end of your turn)",
+              "items": [
+                {
+                  "vp": "5",
+                  "text": "per objective you control (excl. home)"
+                }
+              ]
+            }
+          ]
+        },
+        "Disruption": {
+          "mission": "Determined Acquisition",
+          "score": [
+            {
+              "when": "End of your turn",
+              "items": [
+                {
+                  "vp": "2",
+                  "text": "per objective you control that you didn't control at start of turn (excl. home)"
+                }
+              ]
+            },
+            {
+              "when": "R2+ (Cmd phase / R5)",
+              "items": [
+                {
+                  "vp": "3",
+                  "text": "per objective you control"
+                },
+                {
+                  "vp": "+3",
+                  "text": "for each within enemy territory"
+                }
+              ]
+            }
+          ]
+        },
+        "Reconnaissance": {
+          "mission": "Purge and Secure",
+          "score": [
+            {
+              "when": "End of your turn",
+              "items": [
+                {
+                  "vp": "3",
+                  "text": "enemy killed by a unit in range of an objective, OR enemy that started in range of an objective killed"
+                }
+              ]
+            },
+            {
+              "when": "R2+ (Cmd phase / R5)",
+              "items": [
+                {
+                  "vp": "4",
+                  "text": "per objective you control (excl. home)"
+                }
+              ]
+            },
+            {
+              "when": "R2+ (end of your turn)",
+              "items": [
+                {
+                  "vp": "3",
+                  "text": "control 1+ objectives you didn't control at start of turn (excl. home)"
+                }
+              ]
+            }
+          ]
+        },
+        "Priority Assets": {
+          "mission": "Inescapable Dominion",
+          "score": [
+            {
+              "when": "Start of your Command phase",
+              "items": [
+                {
+                  "vp": "4",
+                  "text": "control 3+ objectives"
+                }
+              ]
+            },
+            {
+              "when": "R2+ (Cmd phase / R5)",
+              "items": [
+                {
+                  "vp": "5",
+                  "text": "control 2+ objectives"
+                },
+                {
+                  "vp": "4",
+                  "text": "control more objectives than opponent"
+                }
+              ]
+            },
+            {
+              "when": "End of battle",
+              "items": [
+                {
+                  "vp": "5",
+                  "text": "control opponent's home objective"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "Purge the Foe": {
+        "Take and Hold": {
+          "mission": "Unstoppable Force",
+          "score": [
+            {
+              "when": "End of your turn",
+              "items": [
+                {
+                  "vp": "3",
+                  "text": "1+ enemy units destroyed this turn"
+                }
+              ]
+            },
+            {
+              "when": "R2+ (Cmd phase / R5)",
+              "items": [
+                {
+                  "vp": "4",
+                  "text": "per objective you control (excl. home)"
+                }
+              ]
+            },
+            {
+              "when": "R2+ (end of your turn)",
+              "items": [
+                {
+                  "vp": "3",
+                  "text": "control 1+ objectives you didn't control at start of turn (excl. home)"
+                }
+              ]
+            },
+            {
+              "when": "End of battle",
+              "items": [
+                {
+                  "vp": "5",
+                  "text": "control 1+ central objectives"
+                }
+              ]
+            }
+          ]
+        },
+        "Purge the Foe": {
+          "mission": "Meatgrinder",
+          "score": [
+            {
+              "when": "End of your turn",
+              "items": [
+                {
+                  "vp": "3",
+                  "text": "1+ enemy units destroyed this turn"
+                }
+              ]
+            },
+            {
+              "when": "R2+ (Cmd phase / R5)",
+              "items": [
+                {
+                  "vp": "4",
+                  "text": "control 1+ objectives (excl. home)"
+                }
+              ]
+            },
+            {
+              "when": "R2+ (end of your turn)",
+              "items": [
+                {
+                  "vp": "5",
+                  "text": "more enemy killed this turn than friendly lost last turn"
+                },
+                {
+                  "vp": "5",
+                  "text": "control opponent's home objective"
+                }
+              ]
+            }
+          ]
+        },
+        "Disruption": {
+          "mission": "Punishment",
+          "setup": "Start of turn: pick 1–3 enemy units in range of objectives and/or that killed a friendly unit last turn (else any) → CONDEMNED until your next turn.",
+          "score": [
+            {
+              "when": "End of your turn",
+              "items": [
+                {
+                  "vp": "5",
+                  "text": "1+ condemned enemy units left the battlefield this turn"
+                }
+              ]
+            },
+            {
+              "when": "R2+ (Cmd phase / R5)",
+              "items": [
+                {
+                  "vp": "4",
+                  "text": "control 1+ objectives (excl. home)"
+                },
+                {
+                  "vp": "5",
+                  "text": "control more objectives than opponent"
+                }
+              ]
+            },
+            {
+              "when": "End of battle",
+              "items": [
+                {
+                  "vp": "8",
+                  "text": "control opponent's home objective"
+                }
+              ]
+            }
+          ]
+        },
+        "Reconnaissance": {
+          "mission": "Consecrate",
+          "setup": "Kill an enemy unit → that unit becomes a consecration unit; at end of your turn it consecrates an objective in range (excl. home) — place a marker.",
+          "score": [
+            {
+              "when": "End of your turn",
+              "items": [
+                {
+                  "vp": "3",
+                  "text": "1–2 objectives consecrated"
+                },
+                {
+                  "vp": "6",
+                  "text": "3+ consecrated"
+                }
+              ]
+            },
+            {
+              "when": "R2+ (Cmd phase / R5)",
+              "items": [
+                {
+                  "vp": "4",
+                  "text": "control 1+ objective (excl. home)"
+                },
+                {
+                  "vp": "4",
+                  "text": "control more objectives than opponent"
+                }
+              ]
+            },
+            {
+              "when": "End of battle",
+              "items": [
+                {
+                  "vp": "5",
+                  "text": "enemy home objective consecrated"
+                }
+              ]
+            }
+          ]
+        },
+        "Priority Assets": {
+          "mission": "Destroyer's Wrath",
+          "score": [
+            {
+              "when": "End of your turn",
+              "items": [
+                {
+                  "vp": "3",
+                  "text": "1+ enemy units destroyed this turn"
+                }
+              ]
+            },
+            {
+              "when": "R2+ (Cmd phase / R5)",
+              "items": [
+                {
+                  "vp": "4",
+                  "text": "control 1+ objectives (excl. home)"
+                },
+                {
+                  "vp": "6",
+                  "text": "control more objectives than opponent"
+                }
+              ]
+            },
+            {
+              "when": "R2+ (end of your turn)",
+              "items": [
+                {
+                  "vp": "4",
+                  "text": "more enemy killed this turn than friendly lost last turn"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "Disruption": {
+        "Take and Hold": {
+          "mission": "Death Trap",
+          "score": [
+            {
+              "when": "End of your turn",
+              "items": [
+                {
+                  "vp": "2",
+                  "text": "per terrain area TRAPPED this turn"
+                },
+                {
+                  "vp": "+3",
+                  "text": "for each that is an objective"
+                },
+                {
+                  "vp": "3",
+                  "text": "enemy that started in a terrain area killed, if that area is trapped"
+                }
+              ]
+            },
+            {
+              "when": "R2+ (Cmd phase / R5)",
+              "items": [
+                {
+                  "vp": "4",
+                  "text": "control 1+ objective (excl. home)"
+                }
+              ]
+            }
+          ],
+          "action": "Booby Trap — Shooting phase: a unit in range of an objective (excl. home) or in a terrain area outside your DZ traps it (place a marker)."
+        },
+        "Purge the Foe": {
+          "mission": "Delaying Action",
+          "score": [
+            {
+              "when": "End of your turn",
+              "items": [
+                {
+                  "vp": "2",
+                  "text": "per enemy unit destroyed this turn"
+                }
+              ]
+            },
+            {
+              "when": "R2+ (Cmd phase / R5)",
+              "items": [
+                {
+                  "vp": "4",
+                  "text": "control 1+ objective (excl. home)"
+                }
+              ]
+            },
+            {
+              "when": "R2+ (end of your turn)",
+              "items": [
+                {
+                  "vp": "3",
+                  "text": "control 1+ central AND 1+ expansion objective"
+                }
+              ]
+            }
+          ]
+        },
+        "Disruption": {
+          "mission": "Outmanoeuvre",
+          "score": [
+            {
+              "when": "Start of your Command phase",
+              "items": [
+                {
+                  "vp": "10",
+                  "text": "control the enemy home objective"
+                }
+              ]
+            },
+            {
+              "when": "R1 (end of your turn)",
+              "items": [
+                {
+                  "vp": "4",
+                  "text": "per objective you control (excl. home)"
+                }
+              ]
+            },
+            {
+              "when": "R2–3 (Cmd phase)",
+              "items": [
+                {
+                  "vp": "5",
+                  "text": "per objective you control (excl. home)"
+                }
+              ]
+            },
+            {
+              "when": "R4+ (end of your turn)",
+              "items": [
+                {
+                  "vp": "6",
+                  "text": "per objective you control (excl. home)"
+                }
+              ]
+            }
+          ]
+        },
+        "Reconnaissance": {
+          "mission": "Smoke and Mirrors",
+          "score": [
+            {
+              "when": "End of your turn",
+              "items": [
+                {
+                  "vp": "2",
+                  "text": "per objective that is a DECOY"
+                },
+                {
+                  "vp": "+2",
+                  "text": "for each within enemy territory"
+                }
+              ]
+            },
+            {
+              "when": "R2+ (Cmd phase / R5)",
+              "items": [
+                {
+                  "vp": "4",
+                  "text": "control 1+ objective (excl. home)"
+                }
+              ]
+            },
+            {
+              "when": "End of battle",
+              "items": [
+                {
+                  "vp": "10",
+                  "text": "4+ objectives are decoys"
+                }
+              ]
+            }
+          ],
+          "action": "Decoy — Shooting phase: a unit in range of a non-decoy objective (excl. home) makes it a decoy (place a marker)."
+        },
+        "Priority Assets": {
+          "mission": "Locate and Deny",
+          "setup": "Start of battle: place a marker in each of five terrain areas outside your DZ.",
+          "score": [
+            {
+              "when": "End of your turn",
+              "items": [
+                {
+                  "vp": "4",
+                  "text": "enemy that started in range of an objective killed"
+                },
+                {
+                  "vp": "4",
+                  "text": "only one of your markers left, your unit there & no enemy"
+                }
+              ]
+            },
+            {
+              "when": "R2+ (Cmd phase / R5)",
+              "items": [
+                {
+                  "vp": "4",
+                  "text": "control 1+ objective (excl. home)"
+                }
+              ]
+            },
+            {
+              "when": "End of battle",
+              "items": [
+                {
+                  "vp": "5",
+                  "text": "only one of your markers left, your unit there & no enemy"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "Reconnaissance": {
+        "Take and Hold": {
+          "mission": "Reconnaissance Sweep",
+          "score": [
+            {
+              "when": "End of your turn",
+              "items": [
+                {
+                  "vp": "3",
+                  "text": "3+ units wholly in 3 different table quarters, not within 6\" of centre"
+                },
+                {
+                  "vp": "6",
+                  "text": "4+ units in 4 different quarters"
+                },
+                {
+                  "vp": "1",
+                  "text": "per enemy unit destroyed this turn"
+                }
+              ]
+            },
+            {
+              "when": "R2+ (Cmd phase / R5)",
+              "items": [
+                {
+                  "vp": "3",
+                  "text": "control 1+ objectives (excl. home)"
+                }
+              ]
+            }
+          ]
+        },
+        "Purge the Foe": {
+          "mission": "Triangulation",
+          "score": [
+            {
+              "when": "R2+ (Cmd phase / R5)",
+              "items": [
+                {
+                  "vp": "4",
+                  "text": "control 1+ objectives (excl. home)"
+                }
+              ]
+            },
+            {
+              "when": "R2+ (end of your turn)",
+              "items": [
+                {
+                  "vp": "3",
+                  "text": "1 objective TRIANGULATED"
+                },
+                {
+                  "vp": "6",
+                  "text": "2 triangulated"
+                },
+                {
+                  "vp": "10",
+                  "text": "3+ triangulated"
+                }
+              ]
+            },
+            {
+              "when": "End of battle",
+              "items": [
+                {
+                  "vp": "10",
+                  "text": "control 4+ objectives"
+                }
+              ]
+            }
+          ]
+        },
+        "Disruption": {
+          "mission": "Surveil the Foe",
+          "setup": "A friendly unit ending a move in range of an objective with enemy markers removes those markers.",
+          "score": [
+            {
+              "when": "End of your turn",
+              "items": [
+                {
+                  "vp": "4",
+                  "text": "1+ enemy units SURVEILLED this turn (unless each is in range of an objective with markers)"
+                }
+              ]
+            },
+            {
+              "when": "R2+ (Cmd phase / R5)",
+              "items": [
+                {
+                  "vp": "4",
+                  "text": "control 1+ objective (excl. home)"
+                },
+                {
+                  "vp": "4",
+                  "text": "control more objectives than opponent"
+                }
+              ]
+            },
+            {
+              "when": "R2+ (end of your turn)",
+              "items": [
+                {
+                  "vp": "5",
+                  "text": "no enemy markers on the battlefield"
+                }
+              ]
+            }
+          ],
+          "action": "Surveil — Shooting phase: pick an enemy unit within 18\" & visible, not yet surveilled → surveilled until end of turn."
+        },
+        "Reconnaissance": {
+          "mission": "Gather Intel",
+          "score": [
+            {
+              "when": "R1 (end of your turn)",
+              "items": [
+                {
+                  "vp": "6",
+                  "text": "control 1+ central objectives"
+                }
+              ]
+            },
+            {
+              "when": "R2+ (Cmd phase / R5)",
+              "items": [
+                {
+                  "vp": "4",
+                  "text": "control 1+ objectives (excl. home)"
+                }
+              ]
+            },
+            {
+              "when": "R2+ (end of your turn)",
+              "items": [
+                {
+                  "vp": "7",
+                  "text": "per friendly unit that EXTRACTED INTELLIGENCE this turn"
+                }
+              ]
+            },
+            {
+              "when": "End of battle",
+              "items": [
+                {
+                  "vp": "5",
+                  "text": "3+ of your markers on the battlefield"
+                },
+                {
+                  "vp": "5",
+                  "text": "a marker within range of opponent's home objective"
+                }
+              ]
+            }
+          ],
+          "action": "Extract Intelligence — Shooting phase R2+: a unit in range of an objective (excl. home) without your markers near it; if it controls it at end of turn, place a marker."
+        },
+        "Priority Assets": {
+          "mission": "Search and Scour",
+          "score": [
+            {
+              "when": "Start of your Command phase",
+              "items": [
+                {
+                  "vp": "3",
+                  "text": "control 1+ central objectives"
+                }
+              ]
+            },
+            {
+              "when": "End of your turn",
+              "items": [
+                {
+                  "vp": "2",
+                  "text": "enemy that started in a terrain area killed"
+                }
+              ]
+            },
+            {
+              "when": "R2+ (Cmd phase / R5)",
+              "items": [
+                {
+                  "vp": "4",
+                  "text": "per objective you control (excl. home)"
+                }
+              ]
+            },
+            {
+              "when": "End of battle",
+              "items": [
+                {
+                  "vp": "5",
+                  "text": "no enemy units wholly within your territory"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "Priority Assets": {
+        "Take and Hold": {
+          "mission": "Secure Asset",
+          "score": [
+            {
+              "when": "End of your turn",
+              "items": [
+                {
+                  "vp": "4",
+                  "text": "a friendly unit SECURED THE ASSET this turn"
+                },
+                {
+                  "vp": "2",
+                  "text": "enemy that started in range of a central objective killed"
+                }
+              ]
+            },
+            {
+              "when": "R2+ (Cmd phase / R5)",
+              "items": [
+                {
+                  "vp": "4",
+                  "text": "control 1+ objectives (excl. home)"
+                },
+                {
+                  "vp": "4",
+                  "text": "control 3+ objectives"
+                }
+              ]
+            }
+          ],
+          "action": "Secure Asset — Shooting phase: a unit in range of an objective (excl. home), once/turn; completes if it controls it."
+        },
+        "Purge the Foe": {
+          "mission": "Vital Link",
+          "score": [
+            {
+              "when": "Start of your Command phase",
+              "items": [
+                {
+                  "vp": "2",
+                  "text": "control 1+ central objectives"
+                },
+                {
+                  "vp": "+1",
+                  "text": "per your marker in range of one of those objectives"
+                }
+              ]
+            },
+            {
+              "when": "R2+ (Cmd phase / R5)",
+              "items": [
+                {
+                  "vp": "4",
+                  "text": "control 1+ objectives (excl. home)"
+                },
+                {
+                  "vp": "+4",
+                  "text": "if 1+ of those is a central objective"
+                }
+              ]
+            },
+            {
+              "when": "End of battle",
+              "items": [
+                {
+                  "vp": "10",
+                  "text": "control opponent's home objective"
+                }
+              ]
+            }
+          ],
+          "action": "Maintain Control — Shooting phase: a unit in range of a central objective, once/turn → place a marker in range of it."
+        },
+        "Disruption": {
+          "mission": "Extract Relic",
+          "score": [
+            {
+              "when": "End of your turn",
+              "items": [
+                {
+                  "vp": "4",
+                  "text": "a friendly unit did a SENSOR SWEEP this turn"
+                },
+                {
+                  "vp": "3",
+                  "text": "enemy that started in range of objectives killed"
+                },
+                {
+                  "vp": "4",
+                  "text": "only one of opponent's markers left, your unit in that area & no enemy"
+                }
+              ]
+            },
+            {
+              "when": "R2+ (Cmd phase / R5)",
+              "items": [
+                {
+                  "vp": "4",
+                  "text": "control 1+ objectives (excl. home)"
+                }
+              ]
+            },
+            {
+              "when": "End of battle",
+              "items": [
+                {
+                  "vp": "5",
+                  "text": "only one of opponent's markers left (your unit there, no enemy)"
+                }
+              ]
+            }
+          ],
+          "action": "Sensor Sweep — Shooting phase: a unit in range of a central objective, once/turn → remove a marker (not if only one remains)."
+        },
+        "Reconnaissance": {
+          "mission": "Vanguard Operation",
+          "score": [
+            {
+              "when": "End of your turn",
+              "items": [
+                {
+                  "vp": "4",
+                  "text": "a friendly unit did a VANGUARD OPERATION this turn"
+                },
+                {
+                  "vp": "2",
+                  "text": "1+ enemy units destroyed this turn"
+                }
+              ]
+            },
+            {
+              "when": "R2+ (Cmd phase / R5)",
+              "items": [
+                {
+                  "vp": "4",
+                  "text": "control 1+ objectives (excl. home)"
+                }
+              ]
+            },
+            {
+              "when": "End of battle",
+              "items": [
+                {
+                  "vp": "10",
+                  "text": "control opponent's home objective"
+                }
+              ]
+            }
+          ],
+          "action": "Vanguard Operation — Shooting phase: a unit in a terrain area in enemy territory, once/turn; completes if no enemy units in that area at end of turn."
+        },
+        "Priority Assets": {
+          "mission": "Sabotage",
+          "score": [
+            {
+              "when": "End of your turn",
+              "items": [
+                {
+                  "vp": "3",
+                  "text": "per friendly unit that COMMITTED SABOTAGE this turn"
+                },
+                {
+                  "vp": "+2",
+                  "text": "for each in range of an objective in enemy territory"
+                }
+              ]
+            },
+            {
+              "when": "R2+ (Cmd phase / R5)",
+              "items": [
+                {
+                  "vp": "4",
+                  "text": "control 1+ objectives (excl. home)"
+                }
+              ]
+            }
+          ],
+          "action": "Sabotage — Shooting phase: a unit in range of an objective (excl. home), each at a different objective; completes if it controls it."
+        }
+      }
+    }
+  },
+  "secondaries": {
+    "note": "type \"Fixed / Tactical\" cards carry both scorings; \"Tactical\" cards carry one. Each tier: {mode, when, max?, items:[{vp,text}]}.",
+    "cards": [
+      {
+        "name": "A Grievous Blow",
+        "type": "Fixed / Tactical",
+        "whenDrawn": "If no enemy units with Starting Strength 13+ are on the battlefield, you may discard and draw a new Secondary.",
+        "score": [
+          {
+            "mode": "Fixed",
+            "when": "End of either player’s turn",
+            "items": [
+              {
+                "vp": "4",
+                "text": "per enemy unit with Starting Strength 13+ destroyed this turn"
+              }
+            ]
+          },
+          {
+            "mode": "Tactical",
+            "when": "End of either player’s turn",
+            "items": [
+              {
+                "vp": "5",
+                "text": "1+ enemy units with Starting Strength 13+ destroyed this turn"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "A Tempting Target",
+        "type": "Tactical",
+        "whenDrawn": "Your opponent picks one objective (excl. home) in No Man’s Land as your tempting target.",
+        "score": [
+          {
+            "mode": "Tactical",
+            "when": "End of your turn",
+            "items": [
+              {
+                "vp": "5",
+                "text": "you control your tempting target"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Assassination",
+        "type": "Fixed / Tactical",
+        "score": [
+          {
+            "mode": "Fixed",
+            "when": "While active",
+            "items": [
+              {
+                "vp": "4",
+                "text": "each enemy CHARACTER (W 4+) destroyed"
+              },
+              {
+                "vp": "3",
+                "text": "each enemy CHARACTER (W <4) destroyed"
+              }
+            ]
+          },
+          {
+            "mode": "Tactical",
+            "when": "End of either player’s turn",
+            "items": [
+              {
+                "vp": "5",
+                "text": "1+ enemy CHARACTER models destroyed this turn"
+              },
+              {
+                "vp": "5",
+                "text": "all enemy CHARACTER models destroyed during the battle"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Beacon",
+        "type": "Tactical",
+        "whenDrawn": "Choose one friendly unit (on the battlefield or embarked) as your beacon unit.",
+        "score": [
+          {
+            "mode": "Tactical",
+            "when": "End of opp’s turn / R5",
+            "items": [
+              {
+                "vp": "3",
+                "text": "your beacon unit is on the battlefield & outside your deployment zone"
+              },
+              {
+                "vp": "5",
+                "text": "your beacon unit is on the battlefield & outside your territory"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Behind Enemy Lines",
+        "type": "Tactical",
+        "whenDrawn": "In R1, you may shuffle this back and draw a new Secondary.",
+        "score": [
+          {
+            "mode": "Tactical",
+            "when": "End of your turn",
+            "max": "5",
+            "items": [
+              {
+                "vp": "3",
+                "text": "per friendly unit (excl. AIRCRAFT/battle-shocked) wholly within your opponent’s deployment zone"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bring it Down",
+        "type": "Fixed / Tactical",
+        "whenDrawn": "If no enemy models with Wounds 10+ are on the battlefield, you may discard and draw a new Secondary.",
+        "score": [
+          {
+            "mode": "Fixed",
+            "when": "End of either player’s turn",
+            "items": [
+              {
+                "vp": "4",
+                "text": "per enemy model with Wounds 10+ destroyed this turn"
+              }
+            ]
+          },
+          {
+            "mode": "Tactical",
+            "when": "End of either player’s turn",
+            "items": [
+              {
+                "vp": "5",
+                "text": "1+ enemy models with Wounds 10+ destroyed this turn"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Burden of Trust",
+        "type": "Tactical",
+        "whenDrawn": "When drawn / start of your turn: for each objective, pick a friendly unit to guard it; it stays guarded while that unit is in range and you control it.",
+        "score": [
+          {
+            "mode": "Tactical",
+            "when": "End of opp’s turn / R5",
+            "max": "5",
+            "items": [
+              {
+                "vp": "2",
+                "text": "per objective guarded by your army"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Centre Ground",
+        "type": "Tactical",
+        "score": [
+          {
+            "mode": "Tactical",
+            "when": "End of your turn",
+            "items": [
+              {
+                "vp": "3",
+                "text": "friendly unit(s) (excl. AIRCRAFT/battle-shocked) within 3\" of centre, no enemy within 3\" of centre"
+              },
+              {
+                "vp": "5",
+                "text": "same, but no enemy within 6\" of centre"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Cleanse",
+        "type": "Tactical",
+        "whenDrawn": "If you have Plunder active, you may shuffle this back and draw a new Secondary.",
+        "action": "Cleanse (Objective Action) — Shooting phase: a unit in range of an objective (excl. home), each at a different objective; completes if it controls it at end of turn → that objective is cleansed.",
+        "score": [
+          {
+            "mode": "Tactical",
+            "when": "End of your turn",
+            "items": [
+              {
+                "vp": "2",
+                "text": "1 objective was cleansed by your army this turn"
+              },
+              {
+                "vp": "5",
+                "text": "2+ objectives were cleansed this turn"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Defend Stronghold",
+        "type": "Tactical",
+        "whenDrawn": "In R1, shuffle this back and draw a new Secondary.",
+        "score": [
+          {
+            "mode": "Tactical",
+            "when": "R2+: End of opp’s turn / R5",
+            "items": [
+              {
+                "vp": "3",
+                "text": "you control your home objective"
+              },
+              {
+                "vp": "5",
+                "text": "you control your home objective & no enemy units in your deployment zone"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Display of Might",
+        "type": "Tactical",
+        "score": [
+          {
+            "mode": "Tactical",
+            "when": "End of your turn",
+            "items": [
+              {
+                "vp": "2",
+                "text": "more friendly than enemy units (excl. AIRCRAFT/battle-shocked) wholly within No Man’s Land"
+              }
+            ]
+          },
+          {
+            "mode": "Tactical",
+            "when": "End of opp’s turn",
+            "items": [
+              {
+                "vp": "5",
+                "text": "more friendly than enemy units (excl. AIRCRAFT/battle-shocked) wholly within No Man’s Land"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Engage on All Fronts",
+        "type": "Fixed / Tactical",
+        "note": "Presence in a table quarter = 1+ friendly units (excl. AIRCRAFT/battle-shocked) wholly within it and not within 6\" of centre.",
+        "score": [
+          {
+            "mode": "Fixed",
+            "when": "End of your turn",
+            "items": [
+              {
+                "vp": "2",
+                "text": "presence in three table quarters"
+              },
+              {
+                "vp": "4",
+                "text": "presence in four table quarters"
+              }
+            ]
+          },
+          {
+            "mode": "Tactical",
+            "when": "End of your turn",
+            "items": [
+              {
+                "vp": "3",
+                "text": "presence in three table quarters"
+              },
+              {
+                "vp": "5",
+                "text": "presence in four table quarters"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Forward Position",
+        "type": "Tactical",
+        "whenDrawn": "In R1, you may shuffle this back and draw a new Secondary.",
+        "score": [
+          {
+            "mode": "Tactical",
+            "when": "End of your turn",
+            "items": [
+              {
+                "vp": "5",
+                "text": "you control your opponent’s home objective and/or each expansion objective"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "No Prisoners",
+        "type": "Tactical",
+        "score": [
+          {
+            "mode": "Tactical",
+            "when": "End of either player’s turn",
+            "max": "5",
+            "items": [
+              {
+                "vp": "2",
+                "text": "per enemy unit destroyed this turn"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Outflank",
+        "type": "Tactical",
+        "note": "Opposite battlefield edges are the ones that run parallel to each other.",
+        "score": [
+          {
+            "mode": "Tactical",
+            "when": "End of your turn",
+            "items": [
+              {
+                "vp": "3",
+                "text": "friendly unit(s) (excl. AIRCRAFT/battle-shocked) within 6\" of 1+ battlefield edges and not in your territory"
+              },
+              {
+                "vp": "5",
+                "text": "2+ such units within 6\" of opposite edges, at least one not in your territory"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Overwhelming Force",
+        "type": "Tactical",
+        "score": [
+          {
+            "mode": "Tactical",
+            "when": "End of either player’s turn",
+            "max": "5",
+            "items": [
+              {
+                "vp": "3",
+                "text": "per enemy unit that started the turn within range of 1+ objectives and is destroyed"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Plunder",
+        "type": "Tactical",
+        "whenDrawn": "If you have Cleanse active, you may shuffle this back and draw a new Secondary.",
+        "action": "Plunder (Objective Action) — Shooting phase: one unit in a terrain area not in your territory, once/turn; completes immediately → that terrain area is plundered.",
+        "score": [
+          {
+            "mode": "Tactical",
+            "when": "End of your turn",
+            "items": [
+              {
+                "vp": "5",
+                "text": "a terrain area was plundered this turn"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Secure No Man's Land",
+        "type": "Tactical",
+        "score": [
+          {
+            "mode": "Tactical",
+            "when": "End of your turn",
+            "items": [
+              {
+                "vp": "5",
+                "text": "you control 2+ objectives within No Man’s Land (excl. home)"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
