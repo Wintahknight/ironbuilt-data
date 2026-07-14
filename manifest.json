@@ -1,7 +1,7 @@
 {
     "schema":  1,
     "name":  "IRONBUILT community datasets",
-    "updated":  "2026-07-13",
+    "updated":  "2026-07-14",
     "datasets":  [
                      {
                          "id":  "wh40k-10e",
@@ -35,6 +35,28 @@
                          "url":  "https://cdn.jsdelivr.net/gh/Wintahknight/ironbuilt-data@518f74c762344ebd08a77c4935dace61fc8d2104/datasets/wh40k-11e.json",
                          "sha256":  "e99f191d66434bf777adb010aac36a813265a1a5d00d3c7c07ca3d799974a958",
                          "bytes":  3859594
+                     },
+                     {
+                         "id":  "wh40k-11e-missions",
+                         "name":  "Warhammer 40,000 - 11th Edition - Missions",
+                         "game":  "wh40k",
+                         "edition":  "11e",
+                         "version":  "2026.07.14-1628-community",
+                         "provenance":  "Community-derived dataset. Warhammer 40,000 primary and secondary mission rules, names, and scoring are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation for personal use - not affiliated with, licensed by, or endorsed by Games Workshop.",
+                         "url":  "https://cdn.jsdelivr.net/gh/Wintahknight/ironbuilt-data@main/datasets/wh40k-11e-missions.json",
+                         "sha256":  "d50cb90adb16b6877d065bcacb72e30fdb4a02057750a8197b9d5edffdbeab10",
+                         "bytes":  39124
+                     },
+                     {
+                         "id":  "wh40k-11e-maps",
+                         "name":  "Warhammer 40,000 - 11th Edition - Deployment Maps",
+                         "game":  "wh40k",
+                         "edition":  "11e",
+                         "version":  "2026.07.14-1628-community",
+                         "provenance":  "Community-derived dataset. Deployment layouts transcribed from the Warhammer 40,000 Event Companion. All map layouts and imagery are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation for personal use - not affiliated with, licensed by, or endorsed by Games Workshop.",
+                         "url":  "https://cdn.jsdelivr.net/gh/Wintahknight/ironbuilt-data@main/datasets/wh40k-11e-maps.json",
+                         "sha256":  "e737644a27209fe77d2bd36dc2564a54ab66050c06676573192fa8e73eae0288",
+                         "bytes":  20983
                      }
                  ]
 }
