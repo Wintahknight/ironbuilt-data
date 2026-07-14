@@ -1,4 +1,4 @@
-{
+﻿{
     "schema":  1,
     "name":  "IRONBUILT community datasets",
     "updated":  "2026-07-14",
@@ -43,7 +43,7 @@
                          "edition":  "11e",
                          "version":  "2026.07.14-1628-community",
                          "provenance":  "Community-derived dataset. Warhammer 40,000 primary and secondary mission rules, names, and scoring are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation for personal use - not affiliated with, licensed by, or endorsed by Games Workshop.",
-                         "url":  "https://cdn.jsdelivr.net/gh/Wintahknight/ironbuilt-data@main/datasets/wh40k-11e-missions.json",
+                         "url":  "https://cdn.jsdelivr.net/gh/Wintahknight/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/datasets/wh40k-11e-missions.json",
                          "sha256":  "d50cb90adb16b6877d065bcacb72e30fdb4a02057750a8197b9d5edffdbeab10",
                          "bytes":  39124
                      },
@@ -54,7 +54,7 @@
                          "edition":  "11e",
                          "version":  "2026.07.14-1628-community",
                          "provenance":  "Community-derived dataset. Deployment layouts transcribed from the Warhammer 40,000 Event Companion. All map layouts and imagery are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation for personal use - not affiliated with, licensed by, or endorsed by Games Workshop.",
-                         "url":  "https://cdn.jsdelivr.net/gh/Wintahknight/ironbuilt-data@main/datasets/wh40k-11e-maps.json",
+                         "url":  "https://cdn.jsdelivr.net/gh/Wintahknight/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/datasets/wh40k-11e-maps.json",
                          "sha256":  "e737644a27209fe77d2bd36dc2564a54ab66050c06676573192fa8e73eae0288",
                          "bytes":  20983
                      }
