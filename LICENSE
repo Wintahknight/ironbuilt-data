@@ -1,0 +1,45 @@
+IRONBUILT community datasets
+============================
+
+PROPOSED LICENCE — Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+
+Full licence text:  https://creativecommons.org/licenses/by-sa/4.0/legalcode
+Human-readable summary (not a substitute):  https://creativecommons.org/licenses/by-sa/4.0/
+
+
+WHAT THIS COVERS
+----------------
+This licence applies to the community's own contribution to this repository, namely: the
+compilation and selection of the data, its structure and schema, its identifiers and normalisation,
+the corrections and verification contributed by the community, and the accompanying documentation
+and tooling.
+
+It does NOT grant, and cannot grant, any rights in third-party intellectual property that the data
+refers to. See NOTICE for the full intellectual-property position. Nothing here is a licence to any
+Games Workshop Limited property.
+
+
+IN SHORT
+--------
+You are free to share and adapt this dataset, including commercially, provided that:
+
+  ATTRIBUTION  — you credit "the IRONBUILT community dataset" and link back to this repository,
+                 and you do not remove the contribution log or the contributors' credits; and
+
+  SHARE-ALIKE  — if you remix, transform or build upon it, you distribute your version under this
+                 same licence, so the community's work stays available to the community.
+
+  NO ENDORSEMENT — you may not imply that IRONBUILT, IRONBUILT LLC, or any contributor endorses you
+                 or your use.
+
+Attribution is owed to the community, not to any single maintainer: this dataset exists because
+players report and correct it. See contributions/CONTRIBUTIONS.md for the record of who contributed
+what.
+
+
+NOTE FOR MAINTAINERS
+--------------------
+This file is a proposal pending review and is not legal advice. The licence choice has real
+consequences (share-alike is deliberately "sticky" and constrains closed-source reuse, including
+possibly your own). Have it reviewed by a qualified IP lawyer before relying on it, and remove this
+note once it is confirmed.

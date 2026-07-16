@@ -1,6 +1,6 @@
 # IRONBUILT community datasets
 
-Community-derived game datasets consumed by the [IRONBUILT](https://github.com/Wintahknight/ironbuilt)
+Community-derived game datasets consumed by the [IRONBUILT](https://github.com/IRONBUILT-LLC/ironbuilt)
 army builder. The app ships with **no game data** — on first run you add a dataset from here (the same
 "bring your own data" model apps like BattleScribe and New Recruit use).
 
@@ -27,7 +27,7 @@ same source of truth:
   repo. Matchups are stored directionally (attacker/defender) but should be matched unordered.
 
 Bundles are served to the app over the **jsDelivr** CDN, version-pinned by git tag, e.g.
-`https://cdn.jsdelivr.net/gh/Wintahknight/ironbuilt-data@v2026.06.03-1324/datasets/wh40k-10e.json`.
+`https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@v2026.06.03-1324/datasets/wh40k-10e.json`.
 
 ## Provenance & legal
 
@@ -43,3 +43,17 @@ to the app is the user's choice; the app itself distributes no game content.
 2. Copy it here, add/update its entry in `manifest.json` (bump `version`, update `sha256`/`bytes`,
    point `url` at the new tag).
 3. Commit, then tag the release (`git tag v<version> && git push --tags`) so jsDelivr pins it.
+
+## Community-maintained, and how to contribute
+
+This dataset is compiled and corrected by the people who use IRONBUILT. Corrections arrive from
+players, are verified against a source, and are recorded with attribution.
+
+- **[`CONTRIBUTING.md`](CONTRIBUTING.md)** — how to suggest a data fix (the in-app *Report Bug* form
+  files a data suggestion when you pick a *Game data* category), and how one becomes a dataset change.
+- **[`contributions/CONTRIBUTIONS.md`](contributions/CONTRIBUTIONS.md)** — the public contribution
+  log: every data suggestion, who raised it, and what came of it (including the ones we did not
+  apply, and why). Machine-readable copy: [`contributions/log.jsonl`](contributions/log.jsonl).
+- **[`LICENSE`](LICENSE)** — the terms the community's work is shared under.
+- **[`NOTICE`](NOTICE)** — the intellectual-property position. This is an unofficial project, not
+  affiliated with or endorsed by Games Workshop.

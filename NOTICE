@@ -1,0 +1,40 @@
+IRONBUILT community datasets — NOTICE
+=====================================
+
+UNOFFICIAL AND UNAFFILIATED
+---------------------------
+This repository is an unofficial, community-maintained project. It is not published, licensed,
+endorsed by, or affiliated with Games Workshop Limited or any other game publisher.
+
+Warhammer, Warhammer 40,000, the Warhammer 40,000 logo, Games Workshop, Citadel, and all associated
+names, marks, logos, characters, units, factions, and imagery are trademarks and/or copyright of
+Games Workshop Limited, used here nominatively for identification only. No challenge to their status
+is intended. No claim of ownership is made over any of that intellectual property.
+
+
+WHAT THIS REPOSITORY IS
+-----------------------
+A machine-readable dataset compiled and corrected by the IRONBUILT player community so that a
+list-building tool can identify units and compute army costs. It is a community record, contributed
+to and checked by its users. Corrections arrive from players and are recorded, with attribution, in
+contributions/CONTRIBUTIONS.md.
+
+The IRONBUILT application ships with NO game data. A user chooses to add a dataset from this
+repository on first run, in the same "bring your own data" model used by tools such as BattleScribe
+and New Recruit.
+
+
+WHAT IS COVERED BY THE LICENCE
+------------------------------
+The LICENCE in this repository covers the community's own contribution: the compilation, structure,
+schema, identifiers, normalisation, corrections, and the effort of assembling and maintaining it.
+
+The LICENCE does NOT purport to grant any rights in third-party intellectual property. Where the
+data references names or values originating with a game publisher, those remain the property of that
+publisher, and no licence to them is granted or implied by this repository.
+
+
+IF YOU ARE A RIGHTS HOLDER
+--------------------------
+If you believe this repository contains material that should not be here, contact
+iron.built.app@gmail.com and it will be reviewed and removed promptly where warranted.
